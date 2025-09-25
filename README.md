@@ -4,7 +4,7 @@ def delete_file(filename):
         os.remove(filename)
         return f"File '{filename}' deleted."
     else:
-        return f"File '{filename}' does not exist."
+        return f"File '{filename}' does not exis."
 
 if __name__ == "__main__":
     file_name = "note.txt"
